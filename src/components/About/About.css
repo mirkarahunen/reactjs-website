@@ -1,0 +1,75 @@
+.about {
+  height: 500px;
+  background-image: url('./img/vinyls.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  height: 7px;
+  background-color: #40307A;
+  border-radius: 5px;
+  transform-origin: center;
+  transform: scaleX(1);
+  left: 45%;
+}
+
+.about>h2 {
+  padding-top: 80px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-text>p {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  margin-bottom: 100px;
+  font-size: 24pt;
+  line-height: 1.3em;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+}
+
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.playlist-box, .spotify-box {
+  max-width: 500px;
+  text-align: center;
+}
+
+.playlist-box>img, .spotify-box>img {
+  max-width: 200px;
+  border-radius: 100%;
+}
+
+.playlist-box>h4, .spotify-box>h4 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.playlist-box>p, .spotify-box>p {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #696969;
+  margin-bottom: 70px;
+  text-align: left;
+}

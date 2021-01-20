@@ -1,0 +1,8 @@
+.Lists-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+  
+  

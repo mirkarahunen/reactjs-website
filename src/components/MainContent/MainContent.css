@@ -1,0 +1,246 @@
+.content {
+  background-image: url('./img/middle-section.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 630px;
+  position: relative;
+}
+
+.content::after { 
+  content: ""; 
+  width: 100%; 
+  height: 100px; 
+  position: absolute; 
+  top: 600px; 
+  right: 0; 
+  background: #161616;
+  transform: skewY(-3deg); 
+} 
+
+.content>h1 {
+  color: white;
+  text-align: left;
+  padding-top: 270px;
+  padding-left: 50px;
+  font-size: 70pt;
+  background: linear-gradient(to right, pink 0%, purple 0% , blue 50% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content>h3 {
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.content>.button-bg {
+  background: linear-gradient(to right, pink 0%, purple 0% , blue 50% );
+  height: 59px;
+  width: 127px;
+  margin-top: 70px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.content>.button-bg>button {
+  border: none;
+  position: absolute;
+  padding: 20px;
+  background: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fafafa;
+  transition: 0.5s;
+  margin: 2px;
+}
+
+.content>.button-bg>button:hover {
+  background: linear-gradient(to right, pink 0%, purple 0% , blue 50% );
+}
+
+.Main-content {
+  background-color: #161616;
+}
+
+.Main-content>.About-us>h2 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.Main-content>.Company-information {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.Main-content>.Company-information>.Section-one,
+.Main-content>.Company-information>.Section-two,
+.Main-content>.Company-information>.Section-three {
+  text-align: center;
+}
+
+.Main-content>.Company-information>.Section-one>i,
+.Main-content>.Company-information>.Section-two>i,
+.Main-content>.Company-information>.Section-three>i {
+  font-size: 40pt;
+  padding-bottom: 15px;
+}
+
+.Main-content>.Company-information>.Section-one>.Data,
+.Main-content>.Company-information>.Section-two>.Data,
+.Main-content>.Company-information>.Section-three>.Data {
+  margin-bottom: 10px;
+}
+
+.Main-content>.About-us>p, .Main-content>.Company-information>p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.Main-content>.About-us {
+  margin-bottom: 100px;
+}
+
+.Main-content>.Middle-section {
+  background-image: url('./img/gig_background_sw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+  text-align: center;
+}
+
+.Main-content>.Middle-section>h3 {
+  padding-top: 120px;
+  color: #fafafa;
+}
+
+.Main-content>.Middle-section>.Second {
+  padding-top: 10px;
+}
+
+.Main-content>.Middle-section>button {
+  border: 2px solid #40307A;
+  padding: 20px;
+  margin-top: 70px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fafafa;
+  transition: 0.5s;
+}
+
+.Main-content>.Middle-section>button:hover {
+  background-color: #40307A;
+}
+
+.Main-content>.Middle-section::after { 
+  content: ""; 
+  width: 100%; 
+  height: 100px; 
+  position: absolute; 
+  margin-top: 250px;
+  right: 0; 
+  background: #161616;
+  transform: skewY(3deg); 
+} 
+
+.Main-content>.Customer-comments-section>.Comment>img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.Main-content>.Customer-comments-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #202020;
+  height: 300px;
+  position: relative;
+}
+
+.Main-content>.Customer-comments-section>.Comment {
+  animation: slide-out 1s forwards;
+}
+
+.Main-content>.Customer-comments-section>.Comment>p {
+  width: 600px;
+  margin-left: 20px;
+}
+
+.Main-content>.Customer-comments-section>.Comment,
+.Main-content>.Customer-comments-section>.Comment.active {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: italic;
+}
+
+.Main-content>.Customer-comments-section>.Comment.active {
+ animation: slide-in 1s forwards;
+}
+
+
+@keyframes slide-in {
+  0% { transform: translateX(100%) }
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  0% { -webkit-transform: translateX(100%) }
+  100% { -webkit-transform: translateX(0%); }
+}
+  
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+  0% { -webkit-transform: translateX(0%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+
+.Main-content>.Customer-comments-section>.NextBtn,
+.Main-content>.Customer-comments-section>.PrevBtn {
+  font-size: 30pt;
+  background: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 130px;
+}
+
+.Main-content>.Customer-comments-section>.NextBtn {
+  right: 20px;
+}
+
+.Main-content>.Customer-comments-section>.PrevBtn {
+left: 20px;
+}
+
+.Main-content>.Customer-comments-section>.NextBtn:hover,
+.Main-content>.Customer-comments-section>.PrevBtn:hover {
+  color: #cccccc;
+}
+
