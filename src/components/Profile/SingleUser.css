@@ -1,0 +1,73 @@
+.Profile {
+    margin: 0 auto;
+}
+
+.Profile>.Profile-image {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.Profile>.Profile-image>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.Profile>h5 {
+    margin-top: 15px;
+}
+
+.Profile>.User-information {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Profile>.User-information>table {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.Profile>.User-information>table>tbody>tr>.Head {
+    text-transform: uppercase;
+    color: #9e9e9e;
+    text-align: left;
+}
+
+.Profile>.User-information>table>tbody>tr>td {
+    padding: 20px;
+    text-align: right;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.Profile>.User-information>.Edit-profile,
+.Profile>.User-information>.Delete-profile {
+    cursor: pointer;
+    width: 10rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    background-color: #6c41ec;
+    text-align: center;
+    font-size: .83rem;
+    transition: background-color .25s;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+.Profile>.Profile-image>button:hover, 
+.Profile>.User-information>.Edit-profile:hover,
+.Profile>.User-information>.Delete-profile:hover {
+    background-color: rgba(108, 65, 233, .7);
+}

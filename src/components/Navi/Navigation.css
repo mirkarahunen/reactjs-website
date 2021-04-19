@@ -1,0 +1,128 @@
+.Navigation {
+  position: fixed;
+  height: 100px;
+  z-index: 100;
+  width: 100%;
+}
+
+.Navigation:hover {
+  background-color: rgba(48, 49, 74, 0.7);
+}
+
+.Navigation>.Logo {
+  height: 100px;
+}
+
+.Navigation>.Logo>img {
+  max-width: 100px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+.Header-links>ul>a>li {
+  text-transform: uppercase;
+  font-size: 16pt;
+  margin-right: 10px;
+  margin-left: 20px;
+  position: relative;
+  list-style: none;
+}
+
+.Header-links>ul>a>li {
+  color: white;
+}
+
+.Header-links>ul>a>li:hover {
+  color: #ccc;
+}
+
+.btn {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.fa-bars, .fa-times {
+  color: white;
+  margin-top: 12px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 300px;
+  right: -100%;
+  overflow: hidden;
+  opacity: 1;
+  z-index: 2;
+  transition: all 1s ease;
+}
+
+.nav.active {
+  background-color: #8362FB;
+  right: 0;
+  opacity: 1;
+  transition: all 1s ease;
+  top: 0;
+}
+
+.Header-links>ul>a {
+  width: 100%;
+  margin-left: 0;
+}
+
+.Header-links>ul>a>li {
+  margin-left: 0;
+}
+
+.nav-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  
+}
+
+.nav-item:hover {
+  background-color: #3912C7;
+  border-radius: 0;
+  width: 100%;
+}
+
+.btn.hide {
+  display: none;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(0);
+}
+
+.Navigation>.MenuIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 60%);
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/*---------------- STICKY NAV ----------------*/
+.Navigation.Sticky {
+  position: fixed;
+  background-color: rgba(48, 49, 74, 0.7);
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 300px;
+  }
+}
+

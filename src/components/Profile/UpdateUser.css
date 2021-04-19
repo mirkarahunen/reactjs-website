@@ -1,0 +1,36 @@
+.center {
+    margin: 0 auto;
+}
+
+.place-form>img {
+  width: 200px;
+}
+
+.Update-profile {
+    cursor: pointer;
+    width: 10rem;
+    padding: .77rem 0;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    background-color: #6c41ec;
+    text-align: center;
+    font-size: .83rem;
+    transition: background-color .25s;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .Update-profile:hover,
+  .Update-profile:active:hover {
+    background-color: rgba(108, 65, 233, .7);
+  }
+
+.Update-profile:disabled, 
+.Update-profile:hover:disabled,
+.Update-profile:disabled:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+}

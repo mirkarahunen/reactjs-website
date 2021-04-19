@@ -1,0 +1,24 @@
+.not-found-container {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+    background-image: linear-gradient(180deg, grey, #161616, #0c0c0c, black);
+    color: white;
+}
+
+.not-found-container>h1 {
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.not-found-container>i {
+    font-size: 18pt;
+    margin-right: 10px;
+}
+
+.not-found-container>a {
+    color: white;
+}

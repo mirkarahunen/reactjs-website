@@ -1,0 +1,14 @@
+.Lists-header>h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.Lists-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+} 
+  
+
+  
