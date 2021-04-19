@@ -1,0 +1,80 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, ul {
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+table {
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Asap', sans-serif;
+  font-size: 16pt;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 34pt;
+}
+
+h3 {
+  font-size: 30pt;
+}
+
+h4 {
+  font-size: 20pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 18pt;
+}
+
+.Main {
+  position: relative;
+}
+
+.Main-back {
+  position: relative;
+}
+
+.Content {
+  display: flex;
+  
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    height: 500px;
+  }
+}

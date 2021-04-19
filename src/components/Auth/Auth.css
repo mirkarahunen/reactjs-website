@@ -1,0 +1,55 @@
+.authentication {
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin: 0 auto;
+    height: 750px;
+}
+
+.auth-header {
+    color: white;
+}
+
+.authentication>form>.confirmation {
+    color: green;
+    text-align: center;
+}
+
+.authentication>form>.login-submit-btn-container>.submit-btn, .authentication>.switch-btn-container>.switch-btn {
+    cursor: pointer;
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    background-color: #6c41ec;
+    text-align: center;
+    font-size: .83rem;
+    transition: background-color .25s;
+    color: #fff;
+}
+
+.authentication>.switch-btn-container,
+.authentication>form>.login-submit-btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.authentication>form>.login-submit-btn-container>.submit-btn:active:hover, 
+.authentication>.switch-btn-container>.switch-btn:hover {
+    background-color: rgba(108, 65, 233, .7);
+}
+
+.authentication>form>.login-submit-btn-container>.submit-btn:disabled, 
+.authentication>form>.login-submit-btn-container>.submit-btn:disabled:hover:disabled,
+.authentication>form>.login-submit-btn-container>.submit-btn:disabled:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+  

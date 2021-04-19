@@ -1,0 +1,16 @@
+.Lists {
+    padding: 20px 0;
+    width: 100%;
+  }
+    
+  .Lists-header>h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+  }
+    
+  .Lists-header>p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+  }

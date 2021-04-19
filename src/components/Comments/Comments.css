@@ -1,0 +1,44 @@
+.playlist-comments-section {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #171717;
+}
+
+.comments-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.comments-form {
+    width: 100%;
+    padding-bottom: 50px
+}
+
+.comments-form>.input-button-section {
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+
+.comment-class {
+    background-color: white;
+    color: rgba(41, 41, 41, 0.7);
+    margin-left: 0;
+    border: none;
+    border-bottom: 1px solid #292929;
+}
+
+.comments-form>.input-button-section>.comment-btn {
+    background-color: #6c41ec;
+    transition: background-color .25s;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.comments-form>.input-button-section>.comment-btn:hover {
+    background-color: rgba(1, 12, 63, .9);
+}

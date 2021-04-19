@@ -1,0 +1,42 @@
+.Card, .Lists-cards img {
+  max-width: 250px;
+}
+
+.Card {
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  max-height: 400px;
+}
+
+.Card:hover {
+  background-color: rgba(1, 12, 63, 0.8);
+  box-shadow: 0 4px 2px 3px #000000;
+}
+
+.Card-body {
+  text-align: center;
+  margin-top: 10px;
+  max-height: 200px;
+}
+
+.Playlist-btn {
+  cursor: pointer;
+  width: 10rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  border-width: 0px;
+  margin-top: 1.27rem;
+  background-color: #6c41ec;
+  text-align: center;
+  font-size: .83rem;
+  transition: background-color .25s;
+  color: #fff;
+  font-weight: 500;
+}
+
+.Playlist-btn:hover {
+  background-color: rgba(108, 65, 233, .7);
+}

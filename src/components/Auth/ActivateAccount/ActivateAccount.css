@@ -1,0 +1,38 @@
+.activation-container {
+    padding-top: 150px;
+    height: 500px;
+    background-image: url('../img/activate_background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.activation-container>h3 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.activation-container>.activation-btn-container {
+    text-align: center;
+    padding-bottom: 50px; 
+}
+
+.activation-container>.activation-btn-container>button {
+    cursor: pointer;
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 54px;
+    border-width: 0px;
+    margin-top: 1.27rem;
+    background-color: #6c41ec;
+    text-align: center;
+    font-size: .83rem;
+    transition: background-color .25s;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.activation-container>.activation-btn-container>button:hover {
+background-color: rgba(108, 65, 233, .7);
+}

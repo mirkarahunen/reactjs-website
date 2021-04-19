@@ -1,0 +1,69 @@
+.Back-navigation {
+  background-color: black;
+  width: 60px;
+  padding-top: 60px;
+  position: relative;
+  transition: all 0.5s ease;
+  min-height: 500px;
+}
+
+.Nav-back>a>li>i {
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.Nav-back {
+  padding-left: 0;
+}
+
+.Nav-back>a>li {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+.nav-item-back {
+  text-align: left;
+  color: white;
+}
+
+.nav-item-back:hover {
+  background-color: #3912C7;
+}
+
+.nav-item-back>a>i {
+  color: white;
+  font-size: 20pt;
+}
+
+.MenuIconBack {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: white;
+  transform: translate(-100%, 60%);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.Back-navigation.active {
+  opacity: 1;
+  min-width: 270px;
+  transition: all 0.5s ease;
+  z-index: 2;
+  overflow: hidden;
+  min-height: 600px;
+}
+
+.MenuIconBack>.fas {
+  margin-right: 0;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .MenuIconBack>.fas {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.SearchResults {
+  width: 400px;
+  max-height: 800px;
+  overflow-y: scroll;
+  padding: .88rem;
+
+}
+
+.SearchResults>h3 {
+  color: white;
+  margin-bottom: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 960px) {
+  .SearchResults {
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+}

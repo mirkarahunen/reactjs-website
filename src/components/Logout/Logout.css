@@ -1,0 +1,18 @@
+a>li>i {
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.nav-item-back {
+    text-align: left;
+    color: white;
+  }
+  
+  .nav-item-back:hover {
+    background-color: #3912C7;
+  }
+  
+  .nav-item-back>a>i {
+    color: white;
+    font-size: 20pt;
+  }

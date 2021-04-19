@@ -1,0 +1,41 @@
+.comment-items {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.comment-items>.writer-created-section>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.writer-created-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comment-items>.writer-created-section>p  {
+    font-size: 14pt;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.comment-items>.comment-content {
+    font-size: 12pt;
+    margin-left: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #fafafa;
+}
+
+.comment-items>.writer-created-section>.created {
+    color: #929292;
+    text-transform: uppercase;
+}
+
+.comment-items>.writer-created-section>.writer {
+    text-transform: uppercase;
+    color: #fafafa;
+}

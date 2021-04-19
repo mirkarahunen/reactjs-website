@@ -1,0 +1,52 @@
+.bg {
+  background-image: url('./img/dashboard-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.bg>h1 {
+  font-size: 50pt;
+}
+
+.bg>h2 {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 46pt;
+  margin-bottom: 0;
+}
+
+.bg>h1, .bg>h2 {
+  color: white;
+  text-align: left;
+  margin-left: 50px; 
+  background: linear-gradient(to top, pink 0%, blue 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.newest>h3 {
+  text-align: left;
+  margin-left: 50px;
+  color: white;
+  font-weight: 400;
+  margin-top: 30px; 
+}
+
+.newest>h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1100px;
+  height: 1px;
+  background-color: white;
+  border-radius: 5px;
+  transform-origin: center;
+  transform: scaleX(1);
+}
+
+.match>h3 {
+  color: white;
+  margin-top: 10px;
+}
